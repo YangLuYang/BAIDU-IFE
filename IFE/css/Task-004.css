@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+#main #content{    
+    /*另一种居中方法
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;*/
+    position: absolute;
+    top: 50%; left: 50%;
+    margin: -100px -200px;
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    z-index: 0;
+    overflow: hidden;
+}
+#left-circle,#right-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #fc0;
+    position: absolute;
+    border-radius: 50%;
+}
+#left-circle {
+   left: -50px;
+   top: -50px;
+}
+#right-circle {
+   right: -50px;
+   bottom: -50px;
+}
