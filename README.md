@@ -1,2 +1,2 @@
 # BAIDU-IFE
-http://ife.baidu.com/task/all
+详细说明http://ife.baidu.com/task/all
